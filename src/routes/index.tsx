@@ -54,8 +54,8 @@ function Index() {
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
       <div className="w-full max-w-md bg-card border border-border rounded-xl shadow-sm p-6 space-y-6">
         <div className="text-center space-y-2">
-          <h1 className="text-3xl font-bold text-foreground">Cadastro de Leads</h1>
-          <p className="text-muted-foreground">Preencha os dados abaixo para se cadastrar.</p>
+          <h1 className="text-3xl font-bold text-foreground">Simpósio CITA</h1>
+          <p className="text-muted-foreground">Inscrições abertas. Preencha seus dados para realizar sua inscrição.</p>
         </div>
 
         {status === 'success' ? (
