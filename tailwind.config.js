@@ -10,14 +10,6 @@ export default {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        navy: "#032766",
-        azul: "#0375C0",
-        ciano: "#03A7BE",
-        ceu: "#2FA8EE",
-        agua: "#5CCFC9",
-        mist: "#F2F6FA",
-        "ink-2": "#5B6B82",
-        line: "#DCE4EE",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -42,10 +34,6 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
       },
-      fontFamily: {
-        sans: ["'Inter Variable'", "sans-serif"],
-        display: ["'Sora Variable'", "sans-serif"],
-      }
     },
   },
   plugins: [require("tailwindcss-animate")],
